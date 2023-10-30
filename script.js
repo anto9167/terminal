@@ -82,7 +82,7 @@ function handleCloakCommand(subcommand) {
             }
             break;
 
-        case 'google':
+        case 'google search':
             document.title = 'Google';
             if (favicon) {
                 favicon.href = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png'; // Google icon
@@ -108,7 +108,7 @@ function handleInput(e) {
         if (command === 'cloak') {
             const subcommand = inputArray.slice(1).join(' ');
             if (!subcommand) {
-                terminal.innerHTML += "Tab Cloak:<br>Pick one of the tab cloak presets:<br>- Google Drive<br>- Google Classroom<br>- Google Docs<br>- Google Slides<br>- Google<br>";
+                terminal.innerHTML += "Tab Cloak:<br>Pick one of the tab cloak presets:<br>- Google Drive<br>- Google Classroom<br>- Google Docs<br>- Google Slides<br>- Google Search<br>";
             } else {
                 handleCloakCommand(subcommand);
             }
