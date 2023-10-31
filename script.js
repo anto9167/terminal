@@ -59,6 +59,8 @@ function handleCloakCommand(subcommand) {
             if (favicon) {
                 favicon.href = 'https://www.gstatic.com/images/branding/product/2x/hh_drive_32dp.png'; // Google Drive icon
             }
+            // Display a success message
+            terminal.innerHTML += "Successfully cloaked to Google Drive.<br>";
             break;
 
         case 'google classroom':
@@ -66,6 +68,8 @@ function handleCloakCommand(subcommand) {
             if (favicon) {
                 favicon.href = 'https://www.gstatic.com/classroom/logo_square_rounded.svg'; // Google Classroom icon
             }
+            // Display a success message
+            terminal.innerHTML += "Successfully cloaked to Google Classroom.<br>";
             break;
 
         case 'google docs':
@@ -73,6 +77,8 @@ function handleCloakCommand(subcommand) {
             if (favicon) {
                 favicon.href = 'https://www.gstatic.com/images/branding/product/1x/docs_2020q4_48dp.png'; // Google Docs icon
             }
+            // Display a success message
+            terminal.innerHTML += "Successfully cloaked to Google Docs.<br>";
             break;
 
         case 'google slides':
@@ -80,6 +86,8 @@ function handleCloakCommand(subcommand) {
             if (favicon) {
                 favicon.href = 'https://www.gstatic.com/images/branding/product/1x/slides_2020q4_48dp.png'; // Google Slides icon
             }
+            // Display a success message
+            terminal.innerHTML += "Successfully cloaked to Google Slides.<br>";
             break;
 
         case 'google search':
@@ -87,6 +95,8 @@ function handleCloakCommand(subcommand) {
             if (favicon) {
                 favicon.href = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png'; // Google icon
             }
+            // Display a success message
+            terminal.innerHTML += "Successfully cloaked to Google Search.<br>";
             break;
 
         default:
@@ -94,6 +104,7 @@ function handleCloakCommand(subcommand) {
             break;
     }
 }
+
 
 // ... (previous code)
 
