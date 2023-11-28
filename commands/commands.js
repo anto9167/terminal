@@ -68,6 +68,76 @@ function handleInput(e) {
                     gameFrame.src = 'gfiles/html5/connect3/index.html'
                 } else if (gameName.toLowerCase() === 'crossy road') {
                     gameFrame.src = 'gfiles/html5/crossyroad/index.html'
+                } else if (gameName.toLowerCase() === 'drift hunters') {
+                    gameFrame.src = 'gfiles/html5/drift hunters/index.html'
+                } else if (gameName.toLowerCase() === 'edge not found') {
+                    gameFrame.src = 'gfiles/html5/edgenotfound/index.html'
+                } else if (gameName.toLowerCase() === 'evil glitch') {
+                    gameFrame.src = 'gfiles/html5/evilglitch/index.html'
+                } else if (gameName.toLowerCase() === 'factory balls forever') {
+                    gameFrame.src = 'gfiles/html5/factoryballsforever/index.html'
+                } else if (gameName.toLowerCase() === 'fbwg') {
+                    gameFrame.src = 'gfiles/html5/fbwg/index.html'
+                } else if (gameName.toLowerCase() === 'flappy bird') {
+                    gameFrame.src = 'gfiles/html5/flappy bird/index.html'
+                } else if (gameName.toLowerCase() === 'full screen mario') {
+                    gameFrame.src = 'gfiles/html5/FullScreenMario/index.html'
+                } else if (gameName.toLowerCase() === 'geometry dash') {
+                    gameFrame.src = 'gfiles/html5/geometry dash/index.html'
+                } else if (gameName.toLowerCase() === 'getaway shootout') {
+                    gameFrame.src = 'gfiles/html5/getaway-shootour/index.html'
+                } else if (gameName.toLowerCase() === 'hextris') {
+                    gameFrame.src = 'gfiles/html5/hextris/index.html'
+                } else if (gameName.toLowerCase() === 'idle breakout') {
+                    gameFrame.src = 'gfiles/html5/idle-breakout/index.html'
+                } else if (gameName.toLowerCase() === 'konnekt') {
+                    gameFrame.src = 'gfiles/html5/konnekt/index.html'
+                } else if (gameName.toLowerCase() === 'minecraft') {
+                    gameFrame.src = 'gfiles/html5/minecraft/index.html'
+                } else if (gameName.toLowerCase() === 'n-gon') {
+                    gameFrame.src = 'gfiles/html5/n-gon/index.html'
+                } else if (gameName.toLowerCase() === 'ninja vs evil corp') {
+                    gameFrame.src = 'gfiles/html5/ninjavsevilcorp/index.html'
+                } else if (gameName.toLowerCase() === 'ovo') {
+                    gameFrame.src = 'gfiles/html5/ovo/index.html'
+                } else if (gameName.toLowerCase() === 'packabunchas') {
+                    gameFrame.src = 'gfiles/html5/packabunchas/index.html'
+                } else if (gameName.toLowerCase() === 'pac man') {
+                    gameFrame.src = 'gfiles/html5/pacman/index.html'
+                } else if (gameName.toLowerCase() === 'particle clicker') {
+                    gameFrame.src = 'gfiles/html5/particleclicker/index.html'
+                } else if (gameName.toLowerCase() === 'pushback') {
+                    gameFrame.src = 'gfiles/html5/pushback/index.html'
+                } else if (gameName.toLowerCase() === 'q1k3') {
+                    gameFrame.src = 'gfiles/html5/q1k3/index.html'
+                } else if (gameName.toLowerCase() === 'racer') {
+                    gameFrame.src = 'gfiles/html5/racer/index.html'
+                } else if (gameName.toLowerCase() === 'radius raid') {
+                    gameFrame.src = 'gfiles/html5/radiusraid/index.html'
+                } else if (gameName.toLowerCase() === 'retro bowl') {
+                    gameFrame.src = 'gfiles/html5/retrobowl/index.html'
+                } else if (gameName.toLowerCase() === 'retro haunt') {
+                    gameFrame.src = 'gfiles/html5/retrohaunt/index.html'
+                } else if (gameName.toLowerCase() === 'roadblocks') {
+                    gameFrame.src = 'gfiles/html5/roadblocks/index.html'
+                } else if (gameName.toLowerCase() === 'run3') {
+                    gameFrame.src = 'gfiles/html5/run3/index.html'
+                } else if (gameName.toLowerCase() === 'sans') {
+                    gameFrame.src = 'gfiles/html5/sans/index.html'
+                } else if (gameName.toLowerCase() === 'sg') {
+                    gameFrame.src = 'gfiles/html5/sg/index.html'
+                } else if (gameName.toLowerCase() === 'shuttledeck') {
+                    gameFrame.src = 'gfiles/html5/shuttledeck/index.html'
+                } else if (gameName.toLowerCase() === 'sleeping beauty') {
+                    gameFrame.src = 'gfiles/html5/sleepingbeauty/index.html'
+                } else if (gameName.toLowerCase() === 'snake') {
+                    gameFrame.src = 'gfiles/html5/snake/index.html'
+                } else if (gameName.toLowerCase() === 'space company') {
+                    gameFrame.src = 'gfiles/html5/spacecompany/index.html'
+                } else if (gameName.toLowerCase() === 'space garden') {
+                    gameFrame.src = 'gfiles/html5/spacegarden/index.html'
+                } else if (gameName.toLowerCase() === 'space huggers') {
+                    gameFrame.src = 'gfiles/html5/spacehuggers/index.html'
                 } else {
                     terminal.innerHTML += `Game '${gameName}' not found.<br>`;
                     return;
@@ -85,7 +155,7 @@ function handleInput(e) {
             terminal.appendChild(helpMessage);
         } else if (inputText === 'gamelist') {
             const gameList = document.createElement('div');
-            gameList.textContent = "List of games :\n2048\nA Dark Room\nASCII Space\nAsteroids\nAstray\nBack Country\nBlack Hole Square\nBounce Back\nBreaklock\nBreakout\nCaptain Callisto\nChess\nChroma Incident\nChrome Dino\nConnect 3\nCrossy Road\nMORE GAMES COMING SOON!!!";
+            gameList.textContent = "List of games :\n2048\nA Dark Room\nASCII Space\nAsteroids\nAstray\nBack Country\nBlack Hole Square\nBounce Back\nBreaklock\nBreakout\nCaptain Callisto\nChess\nChroma Incident\nChrome Dino\nConnect 3\nCrossy Road\nDrift Hunters\nEdge Not Found\nEvil Glitch\nFactory Balls Forever\nFBWG\nFlappy Bird\nFull Screen Mario\nGeometry Dash\nGetaway Shootout\nHextris\nIdle Breakout\nKonnekt\nMinecraft\nn-gon\nNinja VS Evil Corp\novo\nPackabunchas\nPac Man\nParticle Clicker\nPushback\nq1k3\nRacer\nRadius Raid\nRetro Bowl\nRetro Haunt\nRoadblocks\nRun3\nSans\nsg\nShuttledeck\nSleeping Beauty\nSnake\nSpace Company\nSpace Garden\nSpace Huggers\nMORE GAMES COMING SOON!!!";
             terminal.appendChild(gameList);
         } else if (command === 'watch' && inputArray[1] === 'fnaf') {
             const iframe = document.createElement('iframe');
