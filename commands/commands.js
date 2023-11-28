@@ -138,6 +138,22 @@ function handleInput(e) {
                     gameFrame.src = 'gfiles/html5/spacegarden/index.html'
                 } else if (gameName.toLowerCase() === 'space huggers') {
                     gameFrame.src = 'gfiles/html5/spacehuggers/index.html'
+                } else if (gameName.toLowerCase() === 'tam indian truck simulator 3d') {
+                    gameFrame.src = 'gfiles/html5/tam-indian-truck-simulator-3d/index.html'
+                } else if (gameName.toLowerCase() === 'tetris') {
+                    gameFrame.src = 'gfiles/html5/tetris/index.html'
+                } else if (gameName.toLowerCase() === 'the maze of space goblins') {
+                    gameFrame.src = 'gfiles/html5/themazeofspacegoblins/index.html'
+                } else if (gameName.toLowerCase() === 'tower master') {
+                    gameFrame.src = 'gfiles/html5/towermaster/index.html'
+                } else if (gameName.toLowerCase() === 'trimps') {
+                    gameFrame.src = 'gfiles/html5/triumps/index.html'
+                } else if (gameName.toLowerCase() === 'under run') {
+                    gameFrame.src = 'gfiles/html5/underrun/index.html'
+                } else if (gameName.toLowerCase() === 'vex 6') {
+                    gameFrame.src = 'gfiles/html5/vex6/index.html'
+                } else if (gameName.toLowerCase() === 'xx142-b2exe') {
+                    gameFrame.src = 'gfiles/html5/xx142-b2exe/index.html'
                 } else {
                     terminal.innerHTML += `Game '${gameName}' not found.<br>`;
                     return;
@@ -155,7 +171,7 @@ function handleInput(e) {
             terminal.appendChild(helpMessage);
         } else if (inputText === 'gamelist') {
             const gameList = document.createElement('div');
-            gameList.textContent = "List of games :\n2048\nA Dark Room\nASCII Space\nAsteroids\nAstray\nBack Country\nBlack Hole Square\nBounce Back\nBreaklock\nBreakout\nCaptain Callisto\nChess\nChroma Incident\nChrome Dino\nConnect 3\nCrossy Road\nDrift Hunters\nEdge Not Found\nEvil Glitch\nFactory Balls Forever\nFBWG\nFlappy Bird\nFull Screen Mario\nGeometry Dash\nGetaway Shootout\nHextris\nIdle Breakout\nKonnekt\nMinecraft\nn-gon\nNinja VS Evil Corp\novo\nPackabunchas\nPac Man\nParticle Clicker\nPushback\nq1k3\nRacer\nRadius Raid\nRetro Bowl\nRetro Haunt\nRoadblocks\nRun3\nSans\nsg\nShuttledeck\nSleeping Beauty\nSnake\nSpace Company\nSpace Garden\nSpace Huggers\nMORE GAMES COMING SOON!!!";
+            gameList.textContent = "List of games :\n2048\nA Dark Room\nASCII Space\nAsteroids\nAstray\nBack Country\nBlack Hole Square\nBounce Back\nBreaklock\nBreakout\nCaptain Callisto\nChess\nChroma Incident\nChrome Dino\nConnect 3\nCrossy Road\nDrift Hunters\nEdge Not Found\nEvil Glitch\nFactory Balls Forever\nFBWG\nFlappy Bird\nFull Screen Mario\nGeometry Dash\nGetaway Shootout\nHextris\nIdle Breakout\nKonnekt\nMinecraft\nn-gon\nNinja VS Evil Corp\novo\nPackabunchas\nPac Man\nParticle Clicker\nPushback\nq1k3\nRacer\nRadius Raid\nRetro Bowl\nRetro Haunt\nRoadblocks\nRun3\nSans\nsg\nShuttledeck\nSleeping Beauty\nSnake\nSpace Company\nSpace Garden\nSpace Huggers\nTam Indian Truck Simulator 3D\nTetris\nThe Maze Of Space Goblins\nTower Master\nTrimps\nUnder Run\nVex6\nxx142-b2exe\nMORE GAMES COMING SOON!!!";
             terminal.appendChild(gameList);
         } else if (command === 'watch' && inputArray[1] === 'fnaf') {
             const iframe = document.createElement('iframe');
